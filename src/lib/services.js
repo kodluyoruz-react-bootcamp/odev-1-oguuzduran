@@ -7,7 +7,7 @@ async function getData(id){
 
         const {data: users} = await axios.get(`${ENDPOINT}/users/${id}`);
         const {data: posts} = await axios.get(`${ENDPOINT}/posts?userId=${id}`);
-        return {users : users, posts: posts};
+        return {user : users, posts: posts};
 
     }catch(e){
         console.log(e);
