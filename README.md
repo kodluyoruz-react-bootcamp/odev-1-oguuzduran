@@ -1,1 +1,1 @@
-Ödev 1
+Kodluyoruz Ödev 1
